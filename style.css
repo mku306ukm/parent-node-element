@@ -1,0 +1,43 @@
+
+
+ #outer{
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    background: rgb(235, 175, 215);
+}
+#inner{
+    width: 900px;
+    height: 110px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    padding-bottom: 30px;
+    background: rgb(157, 132, 185);
+
+}
+#inner div{
+    height: 40px;
+    width: 60px;
+    padding-left: 50px;
+    padding-top: 20px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 50px;
+    background-color: white;
+    
+}
+#inner > .a{
+    width: 50px;
+    height: 40px;
+    background-color: blue;
+    color: red;
+    text-align: center;
+}
+h2{
+    margin-left: 10px;
+}
+
+
+
